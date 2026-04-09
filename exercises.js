@@ -17,7 +17,7 @@ if (process.argv[1] === fileURLToPath(import.meta.url)) {
   */
 
   // Modify the line of code BELOW to run a different exercise
-  exercise_01();
+  exercise_05();
   // Modify the line of code ABOVE to run a different exercise
 }
 
@@ -40,7 +40,17 @@ function exercise_01() {
 
   // CODE IN THE OPEN LINES BELOW
 
-  const placeholder = "Delete this line and code in this space";
+  const myString = "Hello";
+const myNumber = 42;
+const myBoolean = true;
+const myObject = { name: "Julie" };
+let myUndefined;
+
+console.log(typeof myString);
+console.log(typeof myNumber);
+console.log(typeof myBoolean);
+console.log(typeof myObject);
+console.log(typeof myUndefined);
 
   // CODE IN THE OPEN LINES ABOVE
 }
@@ -60,7 +70,10 @@ function exercise_02() {
 
   // CODE IN THE OPEN LINES BELOW
 
-  const placeholder = "Delete this line and code in this space";
+const myNumber = 42;
+const myString = String(myNumber);
+
+console.log(myString, typeof myString);
 
   // CODE IN THE OPEN LINES ABOVE
 }
@@ -82,7 +95,11 @@ function exercise_03() {
 
   // CODE IN THE OPEN LINES BELOW
 
-  const placeholder = "Delete this line and code in this space";
+const boolZero = Boolean(0);
+const boolOne = Boolean(1);
+
+console.log(boolZero);
+console.log(boolOne);
 
   // CODE IN THE OPEN LINES ABOVE
 }
@@ -101,7 +118,9 @@ function exercise_04() {
 
   // CODE IN THE OPEN LINES BELOW
 
-  const placeholder = "Delete this line and code in this space";
+  const notANumber = Number("hello");
+
+console.log(isNaN(notANumber));
 
   // CODE IN THE OPEN LINES ABOVE
 }
@@ -122,7 +141,10 @@ function exercise_05() {
 
   // CODE IN THE OPEN LINES BELOW
 
-  const placeholder = "Delete this line and code in this space";
+ const age = 38;
+const message = `I am ${age} years old.`;
+
+console.log(message);
 
   // CODE IN THE OPEN LINES ABOVE
 }
